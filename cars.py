@@ -4,7 +4,7 @@ class car():
         self.color=color
         self.size=size
         self.model=model
-    def intro():
+    def intro(self):
         print(self.name)
         print(self.color)
         print(self.size)

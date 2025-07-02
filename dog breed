@@ -1,0 +1,14 @@
+class dog():
+    def __init__(self,name,color,size,breed):
+        self.name=name
+        self.color=color
+        self.size=size
+        self.breed=breed
+    def intro(self):
+        print(self.name)
+        print(self.color)
+        print(self.size)
+        print(self.size)
+        print(self.breed)
+        frenchbulldog=dog("leo","yellow and white","samll","frenchbulldog")
+        germanshepherd=dog("toni","grey","big","germanshepherd")
